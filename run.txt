@@ -1,0 +1,9 @@
+
+# 下面代码运行可以把输出的loss值打印出来，保持到out_list.log文件中
+
+nohup python -u train_Unet_model.py > ./log/out_list.log 2>&1 &
+
+
+或者直接打印出来不保存
+python train_Unet_model.py
+
