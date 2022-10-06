@@ -37,14 +37,8 @@ Download ImageNet pretrained Resnet-101([Link](https://download.pytorch.org/mode
 ### Training semi-supervised (SSL)
 ```
 python train.py   
-
 or
-
 nohup python -u train.py > ./log/out_list.log 2>&1 &
-
-
-或者直接打印出来不保存
-python train.py
 ``` 
 ### Validation 
 ```
