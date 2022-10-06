@@ -60,12 +60,18 @@ Parts of the code have been adapted from:
 
 ## Citation
 
+Bib Tex:
 ```
-@article{1908.05724,
-    Author = {Sudhanshu Mittal and Maxim Tatarchenko and Thomas Brox},
-    Title = {Semi-Supervised Semantic Segmentation with High- and Low-level Consistency},
-    journal = {arXiv preprint arXiv:1908.05724},
-    Year = {2019},
-}
+    @article{Guo2022semi,
+      title={Semi-Supervised Cloud Detection in Satellite Images by Considering the Domain Shift Problem},
+      author={Guo, Jianhua and Xu, Qingsong and Zeng, Yue and Liu, Zhiheng and Zhu, Xiaoxiang},
+      journal={Remote Sensing},
+      year={2022},
+      volume = {14},
+      number = {11},
+      article-number = {2641},
+      url = {https://www.mdpi.com/2072-4292/14/11/2641},
+      ISSN = {2072-4292},
+      doi = {10.3390/rs14112641}
+    }
 ```
-
