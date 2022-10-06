@@ -10,6 +10,10 @@ We use Deeplabv3+ (Chen et al., 2018) as our segmentation network.
 A standard binary classification network was designed as the discriminator in this semi-supervised adversarial learning framework.
 ![](/figure/deeplab_discriminator.png)
 
+Results
+
+![](/figure/tree.png)
+![](/figure/Graphical.png)
 
 ## Package pre-requisites
 The code runs on Python 3 and Pytorch 0.4 The following packages are required. 
