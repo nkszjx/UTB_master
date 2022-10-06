@@ -19,7 +19,7 @@ to support urban development and improve inhabitants’ quality of life to achie
 In addition, it can serve as a benchmark dataset for other high-resolution and mid/low-resolution
 remote sensing images urban tree canopy mapping results assessments.
 
-This Pytorch repository contains the code for our work [Semi-supervised Semantic Segmentation with High- and Low-level Consistency](https://arxiv.org/pdf/1908.05724.pdf). The approach uses two network branches that link semi-supervised classification with semi-supervised segmentation including self-training. The approach attains significant improvement over existing methods, especially when trained with very few labeled samples.
+The approach uses two network branches that link semi-supervised classification with semi-supervised segmentation including self-training. The approach attains significant improvement over existing methods, especially when trained with very few labeled samples.
 
 ## Package pre-requisites
 The code runs on Python 3 and Pytorch 0.4 The following packages are required. 
