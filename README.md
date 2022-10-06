@@ -52,8 +52,12 @@ Parts of the code have been adapted from:
 
 
 ## Citation
-
-Bib Tex:
+@article{Guo2022UTB,
+      title={The Urban Tree Canopy Cover in Brazil - Nationwide Perspectives from High-Resolution Remote Sensing Images},
+      author={Guo, Jianhua and Xu, Qingsong and Zeng, Yue and Liu, Zhiheng and Zhu, Xiaoxiang},
+      journal={Remote Sensing of Environment},
+      year={2022},
+    }
 ```
     @article{Guo2022semi,
       title={Semi-Supervised Cloud Detection in Satellite Images by Considering the Domain Shift Problem},
