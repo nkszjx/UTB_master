@@ -42,15 +42,6 @@ python train.py
 ```
 python evaluate.py
 
-## Instructions for setting-up Multi-Label Mean-Teacher branch
-This work is based on the [Mean-Teacher](https://arxiv.org/abs/1703.01780) Semi-supervised Learning work. To use the MLMT branch, follow the instructions below. 
-1. Fork the [mean-teacher](https://github.com/CuriousAI/mean-teacher) repo. 
-2. Modify the fully connected layer, according to the number of classes and add Sigmoid activation for multi-label classification.
-3. Use Binary Cross Entropy loss fucntion instead of multi-class Cross entropy. 
-4. Load the pretrained ImageNet weights for ResNet-101 from ```./pretrained_models/```.
-5. Use student/teacher predictions for Network output fusion with s4GAN branch. 
-6. For lower labeled-ratio, early stopping might be required.  
-
 
 ## Acknowledgement
 
