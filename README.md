@@ -10,11 +10,11 @@ We use Deeplabv3+ (Chen et al., 2018) as our segmentation network.
 A standard binary classification network was designed as the discriminator in this semi-supervised adversarial learning framework.
 ![](/figure/deeplab_discriminator.png)
 
-###Results
-##Tree segmentation results
+## Results
+### Tree segmentation results
 ![](/figure/tree.png)
 
-##Urban tree canopy cover in Brazil
+### Urban tree canopy cover in Brazil
 ![](/figure/Graphical.png)
 
 ## Package pre-requisites
