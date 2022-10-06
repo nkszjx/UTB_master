@@ -11,9 +11,11 @@ A standard binary classification network was designed as the discriminator in th
 ![](/figure/deeplab_discriminator.png)
 
 Results
-
+Tree segmentation results
 ![](/figure/tree.png)
 
+Urban tree canopy cover in Brazil
+![](/figure/Graphical.png)
 
 ## Package pre-requisites
 The code runs on Python 3 and Pytorch 0.4 The following packages are required. 
