@@ -24,7 +24,7 @@ The code runs on Python 3 and Pytorch 0.4 The following packages are required.
 pip install scipy tqdm matplotlib numpy opencv-python
 ```
 
-## Dataset preparation
+## Training preparation
 
 Download ImageNet pretrained Resnet-101([Link](https://download.pytorch.org/models/resnet101-5d3b4d8f.pth)) and place it ```./pretrained_models/```
 
