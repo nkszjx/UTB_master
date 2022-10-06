@@ -13,7 +13,7 @@ A standard binary classification network was designed as the discriminator in th
 Results
 
 ![](/figure/tree.png)
-![](/figure/Graphical.png)
+
 
 ## Package pre-requisites
 The code runs on Python 3 and Pytorch 0.4 The following packages are required. 
