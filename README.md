@@ -61,18 +61,3 @@ Parts of the code have been adapted from:
     }
 ```
 
-
-```
-    @article{Guo2022semi,
-      title={Semi-Supervised Cloud Detection in Satellite Images by Considering the Domain Shift Problem},
-      author={Guo, Jianhua and Xu, Qingsong and Zeng, Yue and Liu, Zhiheng and Zhu, Xiaoxiang},
-      journal={Remote Sensing},
-      year={2022},
-      volume = {14},
-      number = {11},
-      article-number = {2641},
-      url = {https://www.mdpi.com/2072-4292/14/11/2641},
-      ISSN = {2072-4292},
-      doi = {10.3390/rs14112641}
-    }
-```
