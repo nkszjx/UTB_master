@@ -1,6 +1,6 @@
 # The Urban Tree Canopy Cover in Brazil
 
-This is the pytorch codes for our paper: The Urban Tree Canopy Cover in Brazil - Nationwide Perspectives from High-Resolution Remote Sensing Images.
+This is the pytorch codes for our paper: [The Urban Tree Canopy Cover in Brazil - Nationwide Perspectives from High-Resolution Remote Sensing Images](https://nkszjx.github.io/projects/UTB.html).
 To better service Brazil’s urban ecosystem, we developed a semi-supervised deep learning method, which is able to learn semantic segmentation knowledge from both labeled and unlabeled images, to segment urban trees from high spatial resolution remote sensing images. Using this approach, we created 0.5 m fine-scale tree canopy products for 472 cities in Brazil and made them freely available to the community (https://nkszjx.github.io/projects/UTB.html). The approach uses two network branches that link semi-supervised classification with semi-supervised segmentation including self-training. The approach attains significant improvement over existing methods, especially when trained with very few labeled samples.
 ![](/figure/TreeSeg_Network.png)
 
