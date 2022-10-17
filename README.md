@@ -47,11 +47,12 @@ Parts of the code have been adapted from:
 
 
 ## Citation
+This work is submitted to ISPRS Journal of Photogrammetry and Remote Sensing.
 ```
 @article{Guo2022UTB,
       title={The Urban Tree Canopy Cover in Brazil - Nationwide Perspectives from High-Resolution Remote Sensing Images},
       author={Guo, Jianhua and Xu, Qingsong and Zeng, Yue and Liu, Zhiheng and Zhu, Xiaoxiang},
-      journal={Remote Sensing of Environment},
+      journal={ISPRS Journal of Photogrammetry and Remote Sensing},
       year={2022},
     }
 ```
