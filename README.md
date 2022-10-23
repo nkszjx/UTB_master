@@ -6,8 +6,8 @@ To better service Brazil’s urban ecosystem, we developed a semi-supervised dee
 ![](/figure/TreeSeg_Network.png)
 
 In this study, we used the same semi-supervised learning framework to train two CNN models for urban tree and mask segmentation, respectively. 
-We use [Deeplabv3+](https://github.com/VainF/DeepLabV3Plus-Pytorch) (Chen et al., 2018) as our segmentation network.  
-A standard binary classification network was designed as the discriminator in this semi-supervised adversarial learning framework.
+We use [Deeplabv3+](https://github.com/VainF/DeepLabV3Plus-Pytorch) (Chen et al., 2018) as our segmentation network (a). 
+A standard binary classification network was designed as the discriminator (b) in this semi-supervised adversarial learning framework.
 ![](/figure/deeplab_discriminator.png)
 
 ## Results
