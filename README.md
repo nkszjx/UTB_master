@@ -28,7 +28,7 @@ pip install scipy tqdm matplotlib numpy opencv-python
 
 Download ImageNet pretrained Resnet-101([Link](https://download.pytorch.org/models/resnet101-5d3b4d8f.pth)) and place it ```./pretrained_models/```
 
-### Training semi-supervised (SSL)
+### Training semi-supervised Learing Framework(SSL)
 ```
 python train.py   
 ```
