@@ -1,6 +1,6 @@
 # The Urban Tree Canopy Cover in Brazil
 
-This is the pytorch codes for our paper: [The Urban Tree Canopy Cover in Brazil - Nationwide Perspectives from High-Resolution Remote Sensing Images](https://nkszjx.github.io/projects/UTB.html).
+This is the pytorch codes for our paper: [Nationwide urban tree canopy mapping and coverage assessment in Brazil from high-resolution remote sensing images using deep learning](https://nkszjx.github.io/projects/UTB.html).
 To better service Brazil’s urban ecosystem, we developed a semi-supervised deep learning method, which is able to learn semantic segmentation knowledge from both labeled and unlabeled images, to segment urban trees from high spatial resolution remote sensing images. The approach attains significant improvement over existing methods, especially when trained with limited labeled samples. Using this approach, we created 0.5 m fine-scale tree canopy products for 472 cities in Brazil and made them freely available to the community ([UTB dataset](https://syncandshare.lrz.de/getlink/fi6bKCTtg5Xfnx9qYzMWnV/); Password: 1949).
 
 ![](/figure/TreeSeg_Network.png)
@@ -48,13 +48,18 @@ Parts of the code have been adapted from:
 
 
 ## Citation
-This work is submitted to ISPRS Journal of Photogrammetry and Remote Sensing.
+
 ```
-@article{Guo2022UTB,
-      title={The Urban Tree Canopy Cover in Brazil - Nationwide Perspectives from High-Resolution Remote Sensing Images},
-      author={Guo, Jianhua and Xu, Qingsong and Zeng, Yue and Liu, Zhiheng and Zhu, Xiaoxiang},
-      journal={ISPRS Journal of Photogrammetry and Remote Sensing},
-      year={2022},
-    }
+@article{GUO20231,
+title = {Nationwide urban tree canopy mapping and coverage assessment in Brazil from high-resolution remote sensing images using deep learning},
+journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+volume = {198},
+pages = {1-15},
+year = {2023},
+issn = {0924-2716},
+doi = {https://doi.org/10.1016/j.isprsjprs.2023.02.007},
+url = {https://www.sciencedirect.com/science/article/pii/S0924271623000461},
+author = {Jianhua Guo and Qingsong Xu and Yue Zeng and Zhiheng Liu and Xiao Xiang Zhu},
+}
 ```
 
