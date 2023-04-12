@@ -351,7 +351,7 @@ def main():
         images, labels, _, _, _ = batch
         images = Variable(images).cuda()
         #pred = interp(model(images))  # deeplabv2
-        pred, pred_aux1 = model(images)    # deeplabv3plus     
+        pred, pred_aux1,_ = model(images)    # deeplabv3plus     
         
         
         loss_ce = loss_calc(pred, labels) # Cross entropy loss for labeled data
