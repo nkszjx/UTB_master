@@ -22,7 +22,7 @@ from deeplabv3plus import DeeplabV3plus, Res50_DeeplabV3plus
 from discriminator import discriminator_tree
 from loss import CrossEntropy2d
 from data.voc_dataset import VOCDataSet, VOCDataSet_remain
-from data import get_loader, get_data_path
+#from data import get_loader, get_data_path
 from data.augmentations import *
 
 start = timeit.default_timer()
