@@ -130,4 +130,53 @@ class VOCDataTestSet_all(data.Dataset):
         image = image.transpose((2, 0, 1))
         
         return image, size, img_name, province_city_name	
+      
+        
+class VOCDataSet_remain(data.Dataset):
+    def __init__(self, root, list_path, max_iters=None, crop_size=(321, 321), mean=(128, 128, 128), label_subtract=1, scale=True, mirror=True, ignore_label=255):
+        self.root = root
+        self.list_path = list_path
+        self.crop_h, self.crop_w = crop_size
+        self.scale = scale
+        self.ignore_label = ignore_label
+        self.mean = mean
+        self.label_subtract = label_subtract	# label classification subtracting 		
+        self.is_mirror = mirror
+        self.img_ids = [i_id.strip() for i_id in open(list_path)]
+        if not max_iters==None:
+	        self.img_ids = self.img_ids * int(np.ceil(float(max_iters) / len(self.img_ids)))
+        self.files = []
+        # for split in ["train", "trainval", "val"]:
+        for name in self.img_ids:
+            img_file = osp.join(self.root, "image_remain/%s.jpg" % name)
+            self.files.append({
+                "img": img_file,
+                "name": name
+            })
+
+    def __len__(self):
+        return len(self.files)
+
+
+    def __getitem__(self, index):
+        datafiles = self.files[index]
+        image = cv2.imread(datafiles["img"], cv2.IMREAD_COLOR) #scio.loadmat(datafiles["img"])  #
+		
+        size = image.shape
+        name = datafiles["name"]
+		
+			
+        image = np.asarray(image, np.float32)
+        image -= self.mean
+        # label classification subtracting 	
+        img_pad = image
+		
+        img_h, img_w, _ = img_pad.shape
+        h_off = random.randint(0, img_h - self.crop_h)
+        w_off = random.randint(0, img_w - self.crop_w)
+        image = np.asarray(img_pad[h_off : h_off+self.crop_h, w_off : w_off+self.crop_w], np.float32)
+        #label = np.asarray(label_pad[h_off : h_off+self.crop_h, w_off : w_off+self.crop_w], np.float32)
+        image = image.transpose((2, 0, 1))
+		
+        return image.copy(), np.array(size), name, index
 		
