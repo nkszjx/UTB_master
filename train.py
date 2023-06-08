@@ -290,13 +290,13 @@ def main():
     print ('dataset size: ', train_dataset_size)
 
     trainloader = data.DataLoader(train_dataset,
-                        batch_size=args.batch_size, shuffle=True, num_workers=4, pin_memory=True)
+                        batch_size=args.batch_size, shuffle=True, num_workers=4, pin_memory=True, drop_last=True)
 
     trainloader_gt = data.DataLoader(train_dataset,
-                        batch_size=args.batch_size, shuffle=True, num_workers=4, pin_memory=True)
+                        batch_size=args.batch_size, shuffle=True, num_workers=4, pin_memory=True, drop_last=True)
         
     trainloader_remain = data.DataLoader(train_remain_dataset,
-                        batch_size=args.batch_size, shuffle=True, num_workers=4, pin_memory=True)
+                        batch_size=args.batch_size, shuffle=True, num_workers=4, pin_memory=True, drop_last=True)
     trainloader_remain_iter = iter(trainloader_remain)
 
 
